@@ -14,14 +14,14 @@ public class RecursosHumanos {
     
     
     public void reajustarSalario(Colaborador colaborador, Double salario){
-       this.totalReajustes += 1;
+       this.totalReajustes ++;
        colaborador.setSalario(salario);
        
     }
     
     public void promoverColaborador(Colaborador colaborador,
             String novoCargo, Double novoSalario){
-        this.totalPromovidos += 1;
+        this.totalPromovidos ++;
         if (colaborador.getSalario() < novoSalario) {
             colaborador.setCargo(novoCargo);
             colaborador.setSalario(novoSalario);

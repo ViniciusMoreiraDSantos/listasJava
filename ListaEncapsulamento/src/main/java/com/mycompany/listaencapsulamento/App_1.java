@@ -19,10 +19,7 @@ public class App_1 {
         System.out.println(colaborador2.toString());
         
         rh.promoverColaborador(colaborador2, "Analista sênior", 8500.0);
-        System.out.println(colaborador1.toString());
-        rh.promoverColaborador(colaborador1, "Analista Junior", 5500.0);
-        System.out.println(colaborador2.toString());
-        
+        rh.promoverColaborador(colaborador1, "Analista Junior", 5500.0);     
         rh.reajustarSalario(colaborador2, 10500.0);
         System.out.println(colaborador2.toString());
         
